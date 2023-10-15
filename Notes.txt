@@ -1,0 +1,20 @@
+API key : f1d54d196e814e5db6b2e260bfe41cfb
+
+https://newsapi.org/v2/top-headlines?ApiKey=f1d54d196e814e5db6b2e260bfe41cfb&q=cricket
+
+https://newsapi.org/v2/top-headlines?country=in&apiKey=f1d54d196e814e5db6b2e260bfe41cfb
+
+ https://newsdata.io/api/1/news?country=in&category=general&apiKey=pub_13090c621c844e5d971574a247a0aad62f8afpage=1&pageSize=20
+ 
+ https://newsapi.org/v2/top-headlines?country=in&category=general&apiKey=3b513c30781d4409b18fe3d4c36fc1ce&page=1&pageSize=20
+
+ https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=f1d54d196e814e5db6b2e260bfe41cfb&page=${this.state.page + page}&pageSize=${this.props.pageSize}
+
+ -> Infinite scroll : https://www.codewithharry.com/videos/react-tutorials-in-hindi-35/
+ -> Top-Loading : https://www.codewithharry.com/videos/react-tutorials-in-hindi-36/
+ -> Hiding API keys : https://www.codewithharry.com/videos/react-tutorials-in-hindi-37/
+
+ -> Passing An Argument with onClick : https://reactjs.org/docs/handling-events.html#passing-arguments-to-event-handlers
+
+      <button onClick={(e) => this.deleteRow(id, e)}>Delete Row</button>
+      <button onClick={this.deleteRow.bind(this, id)}>Delete Row</button>

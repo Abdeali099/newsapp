@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sourceNews{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0px;
+    font-size: 1rem;
+}
